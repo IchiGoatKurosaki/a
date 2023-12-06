@@ -190,6 +190,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "HxH",
 	Callback = function()
+   game:GetService("Players").LocalPlayer.World.Value = "HxH" 
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3384.61646, 1.70811689, -3234.85107, 0.768506706, 6.38748503e-08, -0.639841735, -3.91639361e-08, 1, 5.27897797e-08, 0.639841735, -1.55105795e-08, 0.768506706)
 
   	end    
